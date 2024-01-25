@@ -1,11 +1,17 @@
 # Functions and Errors 
 
-The Functions and Errors Library is a collection of utility functions designed to enhance code modularity and handle errors gracefully in your applications.
-It provides a set of reusable functions for common tasks and a structured error-handling mechanism to improve the robustness of your code.
+This Solidity smart contract provides a set of functions for mathematical operations. The twosquare function calculates the sum of squares and checks if it equals zero, the formula function validates a specific mathematical formula, and the unique_variable function asserts the uniqueness of variables.
 
 ## Features:
-Utility Functions
-Error Handling
+Function 1: twosquare
+
+Calculates the sum of squares and ensures that the result is equal to zero.
+Function 2: formula
+
+Validates a mathematical formula involving square roots and checks if it is satisfied.
+Function 3: unique_variable
+
+Asserts the uniqueness of variables, allowing the execution of the function only if variables are unique.
 
 ## Description:
 The provided Solidity smart contract is named ab and contains three functions. The first function, twosquare, takes two unsigned integer parameters, a and b, and ensures
@@ -22,6 +28,7 @@ Function Execution-twosquare Function
                    formula Function
                    unique_variable Function
 Transaction Monitoring
+Head to [remix.ethereum.org] to compile and deploy the code
 
 ## Author:
 GAGAN
